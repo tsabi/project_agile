@@ -1,0 +1,13 @@
+/.settings
+/.project
+/.pydevproject
+/.idea
+/venv
+/filestore
+
+*.pyc
+*~
+*.log
+*.tmp
+*.pid
+/project_agile/static/src/.sass-cache/
