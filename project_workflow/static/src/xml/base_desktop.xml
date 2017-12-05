@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+# Copyright 2017 Modoolar <info@modoolar.com>
+# License LGPLv3.0 or later (https://www.gnu.org/licenses/lgpl-3.0.en.html).
+-->
+<templates id="template" xml:space="preserve">
+
+<t t-name="TaskWorkflowNavigation.content.desktop">
+    <t t-foreach="widget.selection" t-as="i">
+        <t t-call="TaskWorkflowNavigation.content.button"/>
+    </t>
+</t>
+
+</templates>

@@ -1,0 +1,2 @@
+python-magic==0.4.12
+jira==1.0.10

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+# Copyright 2017 Modoolar <info@modoolar.com>
+# License LGPLv3.0 or later (https://www.gnu.org/licenses/lgpl-3.0.en.html).
+-->
+<odoo>
+    <data>
+        <!-- Task-related subtypes for messaging / Chatter -->
+        <record id="mt_task_code_committed" model="mail.message.subtype">
+            <field name="name">Code committed</field>
+            <field name="sequence">10</field>
+            <field name="res_model">project.task</field>
+            <field name="default" eval="True"/>
+            <field name="description">Code Committed</field>
+            <field name="relation_field">commit_ids</field>
+        </record>
+
+
+        <!-- Project-related subtypes for messaging / Chatter -->
+        <record id="mt_project_code_committed" model="mail.message.subtype">
+            <field name="name">Code committed</field>
+            <field name="sequence">9</field>
+            <field name="res_model">project.project</field>
+            <field name="default" eval="True"/>
+            <field name="parent_id" eval="ref('mt_task_code_committed')"/>
+            <field name="description">Code Committed</field>
+            <field name="relation_field">project_id</field>
+        </record>
+    </data>
+</odoo>
