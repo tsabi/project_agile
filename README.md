@@ -1,8 +1,6 @@
 
 Odoo Agile
 =================================
-
-Find revelant modules for agile project management
 This project aims to extend Odoo with agile project management methodologies like:
 
   * Scrum
@@ -23,6 +21,7 @@ addon | version | summary
 [project_agile_analytic](project_agile_analytic/) | 10.0.1.0.0 | Module which bring simple analytics for project tasks.
 [project_agile_git](project_agile_git/) | 10.0.1.0.0 | Module which brings integration with [project_git](project_git/) module
 [project_agile_jira](project_agile_jira/) | 10.0.1.0.0 | Module which brings interface for migration from JIRA to Odoo. Very light.
+[project_agile_kanban](project_agile_kanban/) | 10.0.1.0.0 | Module which brings agile kanban methodology.
 [project_agile_scrum](project_agile_scrum/) | 10.0.1.0.0 | Module which brings agile scrum methodology
 [project_agile_workflow_security](project_agile_workflow_security/) | 10.0.1.0.0 | Module which integrates [project_workflow_security](project_workflow_security/) with project agile.
 [project_agile_workflow_transitions_by_task_type](project_agile_workflow_transitions_by_task_type/) | 10.0.1.0.0 | Module which integrates [project_workflow_transitions_by_task_type](project_workflow_transitions_by_task_type/) with project agile.
@@ -39,13 +38,6 @@ addon | version | summary
 [web_ir_actions_act_view_reload](web_ir_actions_act_view_reload/) | 10.0.1.0.0 | Module which brings new type of action to ActionManager which can reload currently active view only.
 [web_syncer](web_syncer/) | 10.0.1.0.0 | Module which provides generic interface to receive CUD model notifications on web client side.
 [web_widget_image_url](web_widget_image_url/) | 10.0.1.0.0 | Module which provides web widget for displaying image from an URL.
-
-
-Uavailable addons
-----------------
-addon | version | summary
---- | --- | ---
-[project_agile_kanban](project_agile_kanban/) | 10.0.1.0.0 | Module which brings agile kanban methodology.
 
 
 Credits
