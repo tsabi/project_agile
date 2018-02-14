@@ -40,6 +40,9 @@ addon | version | summary
 [web_syncer](web_syncer/) | 11.0.1.0.0 | Module which provides generic interface to receive CUD model notifications on web client side.
 [web_widget_image_url](web_widget_image_url/) | 11.0.1.0.0 | Module which provides web widget for displaying image from an URL.
 
+Roadmap
+=======
+Roadmap for further development can be found [here](roadmap.md).
 
 Credits
 =======
