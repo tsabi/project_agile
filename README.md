@@ -1,6 +1,8 @@
-
-Odoo Agile
+Discontinued
 =================================
+Further development has been discontinued in favour of [Scrummer](https://github.com/modoolar/scrummer) repository.
+
+
 This project aims to extend Odoo with agile project management methodologies like:
 
   * Scrum
